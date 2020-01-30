@@ -5,7 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 
 const HatsPage = () => (
   <div>
-    <h1>HATS</h1>
+    <h1>HAT</h1>
   </div>
 );
 
