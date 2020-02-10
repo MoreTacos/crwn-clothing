@@ -29,6 +29,7 @@ class SignUp extends React.Component {
         email,
         password
       );
+      console.log(displayName);
       await createUserProfileDocument(user, displayName);
 
       this.setState({
@@ -57,7 +58,7 @@ class SignUp extends React.Component {
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
-            name="display name"
+            name="displayName"
             value={displayName}
             onChange={this.handleChange}
             label="Display Name"
