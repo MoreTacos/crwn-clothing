@@ -8,4 +8,3 @@ const middlewares = [logger];
 const store = createStore(rootReducer, applyMiddleware(...middlewares));
 
 export default store;
-//s
