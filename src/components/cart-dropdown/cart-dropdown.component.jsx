@@ -16,7 +16,7 @@ const CartDropdown = ({ cartItems }) => (
     <CustomButton>GO TO CHECKOUT</CustomButton>
   </div>
 );
-
+// s
 const mapStateToProps = state => ({
   cartItems: selectCartItems(state)
 });
