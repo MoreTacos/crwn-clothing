@@ -33,7 +33,7 @@ class App extends React.Component {
       setCurrentUser(userAuth);
     });
   }
-
+  // ts
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
